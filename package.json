@@ -1,0 +1,28 @@
+{
+  "name": "todera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoromerodev/todera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoromerodev/todera/issues"
+  },
+  "homepage": "https://github.com/diegoromerodev/todera#readme",
+  "devDependencies": {
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.22",
+    "terser": "^5.7.0"
+  }
+}

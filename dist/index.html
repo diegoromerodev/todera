@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <title>Todera &mdash; The TODO App</title>
+    </head>
+    <body>
+        <header id="intro">
+            <h1 id="logo">todera</h1>
+            <div id="add-buttons">
+                <button class="add-btn" id="show-group-form">Add new group</button>
+                <button class="add-btn" id="show-todo-form">Add new todo</button>
+            </div>
+        </header>
+        <form id="todo-form" class="hide">
+            <input type="text" id="title" placeholder="Title" maxlength="15">
+            <textarea id="description" cols="20" rows="5" placeholder="Description" maxlength="12"></textarea>
+            <input type="text" id="notes" placeholder="Notes">
+            <input type="date" id="due-date" placeholder="Due date">
+            <select id="priority">
+                <option value="Relaxed">Relaxed</option>
+                <option value="Medium">Medium</option>
+                <option value="Urgent">Urgent</option>
+            </select>
+            <select id="group-bind"></select>
+            <input id="add-todo" type="submit" value="Send">
+        </form>
+
+        <form id="group-form" class="hide">
+            <input type="text" id="group-name" placeholder="Group name">
+            <input id="add-group" type="submit" value="Send">
+        </form>
+        <div id="container">
+            <main id="todos">
+            </main>
+            <aside id="sidebar">
+            </aside>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
