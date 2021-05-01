@@ -8,3 +8,5 @@ BASIC ALGORITHM:
 - Tasks get added to storage
 - Populate groups with their tasks
 - Users should be able to delete groups and tasks
+
+http://imgur.com/AKFDvrZl.png
