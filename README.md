@@ -9,4 +9,4 @@ BASIC ALGORITHM:
 - Populate groups with their tasks
 - Users should be able to delete groups and tasks
 
-http://imgur.com/AKFDvrZl.png
+https://i.imgur.com/MQ7WzJL.png
